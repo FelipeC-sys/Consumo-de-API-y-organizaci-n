@@ -17,7 +17,6 @@ function obtenerPokemon() {
 }
 
 function mostrarPokemon(pokemon) {
-
     card.innerHTML = `
         <div class="card">
             <h2>${pokemon.name}</h2>
